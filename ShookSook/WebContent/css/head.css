@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+*{margin:0;padding:0;}
+
+.mainHeader {
+	margin-bottom:20px;
+}
+
+.mainHeader nav {
+	background: #666;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+	
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+		border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #CF5C3F;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+
+}
+
+/* חלק עליון*/
+.head-box {
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:auto;
+}
+
+/* לוגו*/
+.mainHeader img {
+	width: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 170px;
+	float:left;	
+}
+
+/* כפתורי הרשמה */
+
+.buttonwrap {
+	height: 200px;
+	width: 300px;
+	float:right;
+	margin-right: 5%;
+}
+
+.buttonbox {
+	background:#CF5C3F;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 20px;
+}
+
+#welcome {
+	color: white;
+	text-align:center;
+}
+
+#options {
+	background:#3399cc;
+}
+
+.login {
+	display: table;
+	width:100%;
+	text-decorations:none;
+	list-style: none;
+}
+
+.buttonbox ul li {
+    display: table-cell;
+    width: 33.33333%;
+    border-right: 5px;
+    
+}
+
+.button{
+	display: inline-block;
+	padding-top:10%;
+	padding-bottom:10%;
+	width: 100%;
+	background:#3399cc;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	cursor:pointer;
+	transition:background .1s;
+	-webkit-transition:background .1s;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+.button:hover{
+	background:#2288bb;
+}
+
+#triangle{
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #CF5C3F;
+  border-left:12px solid transparent;
+  margin:0 auto;
+}
+
+.formbox{
+	position:absolute;
+	right: 0;
+	top: 0;
+ 	width:300px;
+ 	margin-right:5%;
+	margin-top:180px;
+	transition:opacity 0.1s;
+	-webkit-transition:opacity 0.1s;
+}
+
+.formbox h1{
+  background:#CF5C3F;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+.dropdown-form {
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+
+.userform {
+	width:92%;	
+}
+
+.input-decorate {
+	background:#fff;
+	margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+#select-day {
+	
+}
+
+#select-month {
+	width:44%;
+}
+
+#select-year {
+	
+}
+
+.submit-decorate {
+width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.submit-decorate hover{
+  background:#2288bb;
+}
+
+.radio {
+	margin-bottom:10px;
+}
+
+.radio-label {
+	margin-right:30px;
+}
+
+.store-form {
+	 background:#fff;
+}
+
+.store-input {
+	padding: 10px;
+	margin-bottom:20px;
+	width:98%;
+}
+
+#store-input4 {
+	width:98%;
+	border:1px solid #ccc;
+	font-family:'Open Sans',sans-serif;
+	font-size:95%;
+	color:#555;
+	padding: 10px;
+	padding-bottom:100px;
+	margin-bottom:20px;
+}
+
+#store-input6 {
+	padding: 10px;
+	width: 150px;
+}
